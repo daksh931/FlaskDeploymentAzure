@@ -1,0 +1,103 @@
+{% extends "layout.html" %}
+{% block content %}
+   
+
+
+<h3>
+    Live Prices of Top Crypto and Global Currencies 
+</h3>
+
+        <center class="col-md-18 col-md-offset-3">
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">S no.</th>
+                  <th scope="col">Currency Name</th>
+                  <th scope="col">Live Prices (USD)</th>
+                
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>BITCOIN</td>
+                  <td>{{data.btc}}</td>
+                </tr>
+          
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Etherium</td>
+                  <td>{{data.eth}}</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>BNB</td>
+                  <td>{{data.bnb}}</td>
+                </tr>
+          
+                <tr>
+                  <th scope="row">4</th>
+                  <td>XRP</td>
+                  <td>{{data.xrp}}</td>
+                </tr>
+                <tr>
+                  <th scope="row">5</th>
+                  <td>ANT</td>
+                  <td>{{data.ant}}</td>
+                </tr>
+          
+                <tr>
+                  <th scope="row">6</th>
+                  <td>MANA</td>
+                  <td>{{data.mana}}</td>
+                </tr>
+               
+                <tr>
+                  <th scope="row">7</th>
+                  <td>STEEM</td>
+                  <td>{{data.steem}}</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>DGB</td>
+                    <td>{{data.dgb}}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">9</th>
+                    <td>DOGE</td>
+                    <td>{{data.doge}}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">10</th>
+                    <td>GBYTE</td>
+                    <td>{{data.gbyte}}</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">11</th>
+                    <td>LTC</td>
+                    <td>{{data.ltc}}</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">12</th>
+                    <td>TNT</td>
+                    <td>{{data.tnt}}</td>
+                  </tr>
+                  
+                  
+                 
+                 
+                 
+               
+              </tbody>
+            </table>
+          </center>
+
+<style>
+    h3{ 
+        padding: 4rem;
+        font-weight: bolder;
+         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;       
+        }
+    </style>
+{% endblock content %}
