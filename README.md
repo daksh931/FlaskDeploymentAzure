@@ -1,6 +1,6 @@
 # FlaskDeploymentAzure
 Youtube video Demonstrating Project - https://www.youtube.com/watch?v=5XFvZEOCp8I
-Azure Deployed Project Link - https://livecurrencymonitor.azurewebsites.net/
+ <br />Azure Deployed Project Link - https://livecurrencymonitor.azurewebsites.net/
 
 At completion of project , automatically live prices of different currencies will get update after a interval without any human interfere (mouse click or any button).
 Program will collect data again and again from Live Server using internet traverse through it and collect relevant data to show in our program.
